@@ -27,6 +27,7 @@ setup(
         'console_scripts': [
             'velocity_publisher = robot_control.velocity_publisher:main',
             'odometry_subscriber = robot_control.odometry_subscriber:main',
+            'point_controller = robot_control.point_controller:main',
         ],
     },
 )
