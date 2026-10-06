@@ -26,6 +26,7 @@ setup(
     entry_points={
         'console_scripts': [
             'velocity_publisher = robot_control.velocity_publisher:main',
+            'odometry_subscriber = robot_control.odometry_subscriber:main',
         ],
     },
 )
